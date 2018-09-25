@@ -1,0 +1,6 @@
+name: DeathShuffle
+description: After a random period between 3 and 5 minutes, all players will be teleported to another player's location.
+author: Caleb Bassham
+version: 1.0.0
+depend: [ScenarioManager]
+main: me.calebbassham.deathshuffle.DeathShufflePlugin
