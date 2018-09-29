@@ -2,14 +2,15 @@ package me.calebbassham.deathshuffle
 
 import java.util.concurrent.ThreadLocalRandom
 
-import me.calebbassham.scenariomanager.api.{Scenario, ScenarioEvent}
+import me.calebbassham.scenariomanager.api.SimpleScenario
+import me.calebbassham.scenariomanager.api.events.ScenarioEvent
 import org.bukkit.Location
 import org.bukkit.entity.Player
 
 import scala.collection.JavaConverters._
 import scala.util.Random
 
-class DeathShuffle extends Scenario("DeathShuffle") {
+class DeathShuffle extends SimpleScenario() {
 
   private val rand = new Random()
 

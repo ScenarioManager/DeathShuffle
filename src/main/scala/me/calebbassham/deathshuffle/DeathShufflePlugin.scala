@@ -6,7 +6,7 @@ import org.bukkit.plugin.java.JavaPlugin
 class DeathShufflePlugin extends JavaPlugin {
 
   override def onEnable(): Unit = {
-    ScenarioManagerInstance.getScenarioManager.registerScenario(new DeathShuffle(), this)
+    ScenarioManagerInstance.getScenarioManager.register(new DeathShuffle(), this)
   }
 
 }
