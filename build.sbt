@@ -9,7 +9,7 @@ resolvers += "spigot" at "https://hub.spigotmc.org/nexus/content/repositories/sn
 resolvers += "spigot-chat" at "https://hub.spigotmc.org/nexus/content/groups/public/"
 
 libraryDependencies += "org.spigotmc" % "spigot-api" % "1.8-R0.1-SNAPSHOT" % "provided"
-libraryDependencies += "me.calebbassham" % "ScenarioManager" % "0.5.0" % "provided"
+libraryDependencies += "me.calebbassham" % "ScenarioManager" % "0.8.4" % "provided"
 
 assemblyJarName in assembly := "death-shuffle.jar"
 
